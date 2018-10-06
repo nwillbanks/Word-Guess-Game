@@ -3,12 +3,37 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>All About Me</title>
+  <title>90's Hangman</title>
 
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   
-  <script src="javascript" href="assets/javascript/game.js"/>
 </head>
 
 <body>
+	<div id="nineties_party">
+	  <img src="assets/images/90s_head.jpg">
+	 </div>
+
+	<div class="container">
+		<div class="row">
+		  <div class="col">
+		  	<img src="assets/images/hangman_1.jpg">
+		  </div>
+		  <div class="col" id="third">
+		  	<h4>Press any key to get started with the super intense 90's word!</h4>
+		  	<h4>WINS</h4>
+		  	<p id="wins">0</p>
+		  	<h4>Current Word</h4>
+		  	<div id="current-word"></div>
+		  	<h4>Guesses Remaining</h4>
+		  	<p id="guesses">10</p>
+		  	<h4>Letters Guessed</h4>
+		  	<div id="letters"></div>
+		  </div>
+		</div>  
+	</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>	

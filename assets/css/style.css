@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	justify-content: center;
+}
+
+#nineties_party {
+	text-align: center; 
+	width: 600px; 
+	margin: 0 auto;
+}
+
+#nineties_party img {
+	width: 600px;
+	height: auto;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.row img {
+	width: 250px;
+	height: 0 auto;
+	margin-left: 0px;
+}
+
+.col {
+	border-style: dotted;
+	border-color: white;
+	border-width: 4px;
+}
+
+#third .row {
+	height: 200px;
+}
+
+#current-word span {
+	display: inline-block;
+	border-bottom: 1px solid white;
+	width: 1em;
+	text-align: center;
+}
